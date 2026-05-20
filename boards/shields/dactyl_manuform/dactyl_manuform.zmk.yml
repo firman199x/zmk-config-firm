@@ -1,0 +1,12 @@
+file_format: "1"
+id: dactyl_manuform
+name: Dactyl Manuform
+type: shield
+url: https://ryanis.cool/dactyl/
+requires: [pro_micro]
+features:
+  - keys
+  - underglow
+siblings:
+  - dactyl_manuform_left
+  - dactyl_manuform_right
