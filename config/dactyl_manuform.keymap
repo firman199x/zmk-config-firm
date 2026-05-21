@@ -1,12 +1,12 @@
-// Physical layout positions (92 keys, 7 rows x 14 cols)
+// Physical layout positions (90 keys, 7 rows x 14 cols)
 //
 //   R0: [00][01][02][03][04][05][06]   [07][08][09][10][11][12][13]
 //   R1: [14][15][16][17][18][19][20]   [21][22][23][24][25][26][27]
 //   R2: [28][29][30][31][32][33][34]   [35][36][37][38][39][40][41]
 //   R3: [42][43][44][45][46][47][48]   [49][50][51][52][53][54][55]
-//   R4: [56][57][58][59][60][61][62]   [63][64][65][66][67][68][69]
-//   R5: [70][71][72][73][74]               [75][76][77][78][79]
-//   R6: [80][81][82][83][84][85]       [86][87][88][89][90][91]
+//   R4: [56][57][58][59][60][61]           [62][63][64][65][66][67]
+//   R5: [68][69][70][71][72]               [73][74][75][76][77]
+//   R6: [78][79][80][81][82][83]       [84][85][86][87][88][89]
 //
 //   Pinky: col0/col13  Ring: col1/col12  Mid: col2/col11
 //   Index: col3/col10  Inner: col4/col9  Thumb: col5-6/col7-8
@@ -32,7 +32,7 @@
 &kp TAB  &kp Q     &kp W     &kp E    &kp R    &kp T     &kp Y       &kp U    &kp I    &kp O    &kp P    &kp LBKT  &kp RBKT  &kp BSLH
 &kp CAPS &kp A     &kp S     &kp D    &kp F    &kp G     &kp H       &kp J    &kp K    &kp L    &kp SEMI &kp SQT   &kp ENTER &kp ENTER
 &kp LSHFT &kp Z    &kp X     &kp C    &kp V    &kp B     &kp N       &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHFT &kp UP    &kp PG_UP
-&kp LCTRL &kp LGUI &kp LALT  &kp SPACE &kp SPACE &mo LOWER &kp GRAVE &kp BSPC &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp RALT  &mo RAISE
+&kp LCTRL &kp LGUI &kp LALT  &kp SPACE &kp SPACE &mo LOWER          &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp RALT  &mo RAISE
 &kp DEL  &kp ENTER &kp SPACE &kp TAB  &mo LOWER                                    &kp LEFT &kp DOWN &kp UP   &kp RIGHT &mo RAISE
 &kp SPACE &mo LOWER &kp TAB  &mo RAISE &kp ENTER &kp BSPC                          &kp SPACE &mo LOWER &kp TAB &mo LOWER &kp ENTER &kp BSPC
             >;
@@ -44,7 +44,7 @@
 &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans                &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans
             >;
@@ -56,7 +56,7 @@
 &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &bt BT_SEL 6 &bt BT_SEL 7 &bt BT_CLR &out OUT_USB &out OUT_BLE &bootloader &trans &trans
 &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans                &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans
             >;
