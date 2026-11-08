@@ -1,2 +1,12 @@
-
 .zmk/
+.west/
+build/
+modules/
+zephyr/
+zmk/
+*.uf2
+left.uf2
+right.uf2
+*.o
+*.elf
+*.bin
