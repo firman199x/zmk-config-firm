@@ -22,6 +22,16 @@
 #define LOWER   1
 #define RAISE   2
 
+
+// default layer
+//   R0: [ DEL]   [ F1]    [ F2]   [ F3]    [ F4]   [ F5]  [ Mute]    [ F6]    [ F7]    [ F8]        [ F9]   [ F10]   [ F11] [ F12]
+//   R1: [ `]     [ 1]     [ 2]    [ 3]     [ 4]    [ 5]   [ Pg_Up]   [ 6]     [ 7]     [ 8]         [ 9]    [ 0]     [ -]   [ =]
+//   R2: [ `]     [ Q]     [ W]    [ E]     [ R]    [ T]   [ Pg_Down] [ [ ]    [ Y]     [ U]         [ I]    [ O]     [ P]   [ \]
+//   R3: [ `]     [ A]     [ S]    [ D]     [ F]    [ G]   [ Win]     [ ]]     [ H]     [ J]         [ K]    [ L]     [ ;]   [ ']
+//   R4: [ `]     [ Z]     [ X]    [ C]     [ V]    [ B]                       [ N]     [ M]         [ ,]    [ .]     [ /]   [ ENTER]
+//   R5: [ RAISE] [ LOWER] [ LEFT] [ RIGHT]                                                          [ DOWN] [ UP]    [ LOWER]   [ RAISE]
+//   R6: [ Tab]   [ Shift] [ Ctrl] [ Home]  [ End]  [ Alt] [ 82]               [ Shift] [ BackSpace] [ Del]  [ Alt]   [ Ctrl]
+
 / {
 	keymap {
 		compatible = "zmk,keymap";
