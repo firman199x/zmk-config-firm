@@ -4,7 +4,7 @@ cd "$(dirname "$0")"
 export ZEPHYR_SDK_INSTALL_DIR=/home/fsukri/zephyr-sdk-0.16.9
 export ZEPHYR_TOOLCHAIN_VARIANT=zephyr
 export PATH="/home/fsukri/.venv/bin:$PATH"
-west build -p auto -b nice_nano -s zmk/app -d build_left -- \
+west build -p auto -b nice_nano_v2 -s zmk/app -d build_left -- \
   -DSHIELD=dactyl_manuform_left \
   -DZMK_CONFIG="$(pwd)/config" \
   -DBOARD_ROOT="$(pwd)"

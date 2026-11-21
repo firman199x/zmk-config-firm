@@ -32,13 +32,13 @@ west zephyr-export
 export ZEPHYR_SDK_INSTALL_DIR=/home/fsukri/zephyr-sdk-0.16.9
 
 # Left side (with Studio RPC over USB UART)
-west build -p auto -b nice_nano -s zmk/app -- \
+west build -p auto -b nice_nano_v2 -s zmk/app -- \
   -DSHIELD=dactyl_manuform_left \
   -DZMK_CONFIG="$(pwd)/config" \
   "-DBOARD_ROOT=$(pwd);zmk/app"
 
 # Right side (no Studio snippet)
-west build -p auto -b nice_nano -s zmk/app -- \
+west build -p auto -b nice_nano_v2 -s zmk/app -- \
   -DSHIELD=dactyl_manuform_right \
   -DZMK_CONFIG="$(pwd)/config" \
   "-DBOARD_ROOT=$(pwd);zmk/app"
